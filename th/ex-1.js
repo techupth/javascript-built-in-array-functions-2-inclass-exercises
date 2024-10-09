@@ -11,6 +11,10 @@
 
 // Start coding here
 
+function findIfItemExist(products, productName) {
+  return products.indexOf(productName);
+}
+
 const products = ["milk", "bread", "eggs", "butter", "cheese", "orange juice"];
 
 console.log(findIfItemExist(products, "cereal box")); // -1
